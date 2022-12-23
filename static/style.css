@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(235, 250, 250);
+}
+
+p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25%;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+}
+
+input{
+    margin: 2%;
+}
+
+input[type=submit]{
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: white; 
+}
+
+input[type=submit]:hover{
+    background-color:rgb(247, 247, 247);
+}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+        <h1>Enter your grades here</h1>
+        <div>
+            <form method = "POST" action = "\result">
+                <p>Score for {{ sub1[1] }} {{ sub1[0] }}: 
+                <input type = "text" name = "sub1grade"></p> <br>
+
+                <p>Score for {{ sub2[1] }} {{ sub2[0] }}: 
+                <input type = "text" name = "sub2grade"> </p> <br>
+
+                <p>Score for {{ sub3[1] }} {{ sub3[0] }}:  
+                <input type = "text" name = "sub3grade"></p> <br>
+
+                <p>Score for {{ mathlevel }} Mathematics: 
+                <input type = "text" name = "mathgrade"></p> <br>
+
+                <p>Score for H1 General Paper: 
+                <input type = "text" name = "gpgrade"></p> <br>
+
+                <input type = "submit">
+
+            </form>
+        </div>
+    
+{% endblock %}

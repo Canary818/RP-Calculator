@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <h1>RP Calculator</h1>
+        <p>Tired of punching numbers into your calculator, then forgetting which subject you entered?
+            Worry not, because this RP calculator tool will help you keep track!
+        </p>
+
+        <div>
+            <h2>Subjects</h2>
+
+            <form action = "\grades" method = "POST">
+                <p>Subject 1: 
+                <input type = "text" name = "sub1"> 
+                <select name = "sub1">
+                    <option value = "blank">--Level--</option>
+                    <option value = "H1">H1</option>
+                    <option value = "H2">H2</option>
+                </select></p>
+
+                <p>Subject 2: 
+                <input type = "text" name = "sub2"> 
+                <select  name = "sub2">
+                    <option value = "blank">--Level--</option>
+                    <option value = "H1">H1</option>
+                    <option value = "H2">H2</option>
+                </select></p>
+
+                <p>Subject 3: 
+                <input type = "text" name = "sub3">
+                <select name = "sub3">
+                    <option value = "blank">--Level--</option>
+                    <option value = "H1">H1</option>
+                    <option value = "H2">H2</option>
+                </select></p>
+
+                <p>Mathematics: 
+                <select name = "mathlevel">
+                    <option value = "blank">--Level--</option>
+                    <option value = "H1">H1</option>
+                    <option value = "H2">H2</option>
+                </select> </p>
+                <br>
+                <input type = "submit">
+
+            </form>
+        </div>
+    
+{% endblock %}
